@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    height:50vh;
+    background-color: yellowgreen;
+}
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: wheat;
+}
+.contact {
+    width: 20%;
+    border: 2px solid wheat;
+    height: 100%;
+}
+.compani {
+    width: 20%;
+    border: 2px solid wheat;
+    height: 100%;
+}
+.about {
+     width: 20%;
+    border: 2px solid wheat;
+    height: 100%;
+}
+.suuport {
+    width: 20%;
+    border: 2px solid wheat;
+    height: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around
+    ;
+}
+.contact ul li a img {
+    width: 40px;
+}
+.contact ul {
+    list-style: none;
+    display: flex;
+    border: 2px solid white;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.link{
+    width: 100%;
+    height: 50px;
+
+    
+}
